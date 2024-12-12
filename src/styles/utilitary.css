@@ -1,0 +1,39 @@
+.avatar-top {
+    width: 2.5rem;
+}
+
+.avatar-left {
+    width: 3rem;
+}
+
+.quantity-messages-icon {
+    width: 1.125rem;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-size-1 {
+    font-size: 1rem;
+}
+
+.font-size-875 {
+    font-size: .875rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-green {
+    background-color: #78e378;
+}
+
+.bg-grey {
+    background-color: #f5f5f5;
+}
