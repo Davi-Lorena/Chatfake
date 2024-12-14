@@ -1,0 +1,30 @@
+main #contacts {
+    border-right: 1px solid #d9dce0;
+    max-width: 22.75rem;
+    & header {
+        width: 100%;
+        padding-left: 1.5rem;
+gap: 1.5rem;
+& div {
+    position: relative;
+    width: 17.25rem;
+    border-radius: 1.375rem;
+    gap: 1rem;
+cursor: pointer;
+
+& input, input:hover, input:focus-within {
+    all: unset;
+    
+}
+
+    & input::placeholder {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-style: 1rem;
+        color: #707991;
+    }
+
+}
+
+    }
+}

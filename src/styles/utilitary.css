@@ -26,6 +26,10 @@
     font-weight: bold;
 }
 
+.font-weight-regular {
+    font-weight: 400;
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -36,4 +40,8 @@
 
 .bg-grey {
     background-color: #f5f5f5;
+}
+
+.padding-8-16 {
+    padding: .5rem 1rem;
 }
