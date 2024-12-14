@@ -1,8 +1,7 @@
 main #contacts {
-    border-right: 1px solid #d9dce0;
+    gap: .5rem;
     max-width: 22.75rem;
     & header {
-        width: 100%;
         padding-left: 1.5rem;
 gap: 1.5rem;
 & div {
@@ -27,4 +26,43 @@ cursor: pointer;
 }
 
     }
+
+& div.flex-direction-column {
+
+& figure {
+padding: 1rem;
+gap: 1rem;
+
+& figcaption {
+    gap: .25rem;
+
+    & h2 {
+        position: relative;
+gap: .25rem;
+
+    }
+
+& span {
+    color: #707991;
+    gap: .25rem;
+
+& strong {
+ font-weight: 400;   
+ color: #000;
+}
+
+}
+
+}
+
+& small {
+    margin-left: auto;
+    margin-right: 1rem;
+    color: #707991;
+}
+
+}
+
+}
+
 }
