@@ -24,6 +24,14 @@ cursor: pointer;
 
     }
 
+    & img[src*="Avatar"] {
+        width: 3.25rem;
+        height: 3.25rem;
+        object-fit: cover;
+       border-radius: 50%;
+        
+    }
+
 & div.flex-direction-column {
 
 & figure {

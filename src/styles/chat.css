@@ -7,6 +7,12 @@ padding-right: 1.5rem;
 & #profile {
     gap: 1rem;
 
+    & img[src*="Avatar"] {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+     }
+
     & div {
         gap: .25rem;
     }
