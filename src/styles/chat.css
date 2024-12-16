@@ -1,4 +1,7 @@
 main #chat {
+    height: 100vh;
+    position: sticky;
+    top: 0;
   & header {
 height: 4rem;
 justify-content: space-between;
