@@ -1,5 +1,9 @@
+body {
+    max-height: max-content;
+}
+
 main #chat {
-    
+   
     position: sticky;
     top: 0;
   & header {
@@ -40,7 +44,6 @@ padding-inline: 7rem;
                 align-self: center;
                 color: #fff;
                 background-color: #3d71d894;
-        
             }
 
             & #other, #your {
@@ -77,6 +80,8 @@ padding-inline: 7rem;
     main #chat {
         & #locale-messages {
             padding-inline: 2rem;
+
+
         }
     }
 }
