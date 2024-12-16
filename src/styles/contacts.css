@@ -13,11 +13,6 @@ gap: 1.5rem;
     gap: 1rem;
 cursor: pointer;
 
-& input, input:hover, input:focus-within {
-    all: unset;
-    
-}
-
     & input::placeholder {
         font-family: 'Inter', sans-serif;
         font-weight: 400;

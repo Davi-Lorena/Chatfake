@@ -18,4 +18,48 @@ padding-right: 1.5rem;
 }
 
     }
+
+    & #locale-messages {
+        height: 100%;
+        padding-bottom: 1.5rem;
+background-color: #8babd8;
+padding-inline: 7rem;
+        & #messages {
+            width: 100%;
+            gap: 1rem;
+            & h4 {
+                align-self: center;
+                color: #fff;
+                background-color: #3d71d894;
+        
+            }
+
+            & #other, #your {
+                gap: 1rem;
+            }
+                            
+& .message-other, .message-you {
+    max-width: 25.125rem;
+    width: fit-content;
+    gap: .25rem;
+    }
+
+    & .dates {
+        gap: .25rem;
+    }
+
+    & #text-in {
+        padding: 1rem;
+        justify-content: space-between;
+        
+& div {
+    gap: 1rem;
+}
+        
+
+    }
+
+        }
+
+    }
 }
