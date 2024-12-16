@@ -1,6 +1,8 @@
 main #contacts {
+    border-right: 1px solid #d9dce0;
     gap: .5rem;
     max-width: 22.75rem;
+
     & header {
         padding-left: 1.5rem;
 gap: 1.5rem;

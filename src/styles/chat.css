@@ -1,0 +1,21 @@
+main #chat {
+  & header {
+height: 4rem;
+justify-content: space-between;
+border-bottom: 1px solid #d9dce0;
+padding-right: 1.5rem;
+& #profile {
+    gap: 1rem;
+
+    & div {
+        gap: .25rem;
+    }
+
+}
+
+& #icons {
+    gap: 1rem;
+}
+
+    }
+}
