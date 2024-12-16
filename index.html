@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="flex">
+    <main class="flex font-inter">
         <section id="contacts" class="flex flex-direction-column">
             <header class="flex padding-8-16 width-100">
                 <img src="./src/assets/icons/Menu Icon.svg" alt="Ícone de menu">
@@ -25,7 +25,7 @@
 
             <div class="flex flex-direction-column width-100">
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-iceberg-blue.jpg" alt="Foto de iceberg-blue">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125 flex align-items-center">Chatgram <img src="./src/assets/icons/Star-blue.svg" alt="Blue star"></h2>
@@ -34,7 +34,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">19:48</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-jessica.jpg" alt="Foto de Jessica">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Jessica Drew</h2>
@@ -43,7 +43,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">18:26</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-david.jpg" alt="Foto de David">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">David Moore</h2>
@@ -52,7 +52,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">18:16</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-greg.jpg" alt="Foto de Greg">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Greg James</h2>
@@ -61,7 +61,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">18:02</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-emily.jpg" alt="Foto de Emily">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Emily Dorson</h2>
@@ -70,7 +70,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">17:42</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-office-chat.jpg" alt="Foto de Office chat">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Office chat</h2>
@@ -79,7 +79,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">17:08</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-announcements.jpg" alt="Foto de Avatar-announcements">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Announcements</h2>
@@ -88,7 +88,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">16:15</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-little-sister.jpg" alt="Foto de Avatar-little-sister">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Little Sister</h2>
@@ -97,7 +97,7 @@
 <small class="font-size-75 font-weight-regular line-height-1">Wed</small>
                 </figure>
 
-                <figure class="flex font-inter">
+                <figure class="flex ">
                     <img src="./src/assets/images/Avatar-art-class.jpg" alt="Foto de Art class">
                     <figcaption class="flex flex-direction-column">
                         <h2 class="font-weight-bold font-size-1 line-height-125">Art Class</h2>
@@ -122,7 +122,7 @@
  </section>
 
  <section id="chat" class="flex flex-direction-column width-100">
-    <header class="flex align-items-center padding-8-16 font-inter">
+    <header class="flex align-items-center padding-8-16 ">
         <div id="profile" class="flex align-items-center">
             <img src="./src/assets/images/Avatar-david.jpg" alt="Avatar de David">
             <div class="flex flex-direction-column">
@@ -138,6 +138,57 @@
         </div>
 
     </header>
+
+    <main id="locale-messages" class="flex flex-direction-column justif-content-end">
+
+<section id="messages" class="flex flex-direction-column ">
+<h4 class="font-weight-regular line-height-125 padding-4-12 bradius-75">
+    Today
+</h4>
+
+<div class="flex flex-direction-column gap-1">
+    <div id="other" class="flex flex-direction-column align-items-start">
+    <div class="flex flex-direction-column message-other padding-4-12 bg-white bradius-75">
+        <span>OMG 😲 do you remember what you did last night 
+            at the work night out?</span>
+            <div class="dates flex align-items-center justif-content-end">
+                <img src="./src/assets/icons/heart.svg" alt="Heart">
+                <span class="font-size-75 line-height-1 font-weight-regular">18:12</span>
+                <img src="./src/assets/icons/check.svg" alt="Check">
+            </div>
+    </div>
+</div>
+
+    <div id="your" class="flex flex-direction-column align-items-end">
+        <div class="flex flex-direction-column message-you padding-4-12 bradius-75 bg-green">
+            <span>no haha</span>
+            <div class="dates flex align-items-center justif-content-end">
+                <span class="font-size-75 line-height-1 font-weight-regular">18:12</span>
+                <img src="./src/assets/icons/check.svg" alt="Check">
+            </div>
+        </div>
+        <div class="flex flex-direction-column message-you padding-4-12 bradius-75 bg-green">
+            <span>i don't remember anything 😄</span>
+            <div class="dates flex align-items-center justif-content-end">
+                <span class="font-size-75 line-height-1 font-weight-regular">18:12</span>
+                <img src="./src/assets/icons/check.svg" alt="Check">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="text-in" class="bg-white flex bradius-75 align-items-center">
+    <div class="flex align-items-center">
+        <img src="./src/assets/icons/Emoji Icon.svg" alt="Emoji icon">
+        <input type="text" placeholder="Message">
+    </div>
+    <img src="./src/assets/icons/Send Icon.svg" alt="Send icon">
+</div>
+
+</section>
+
+</main>
+
 
  </section>
 
