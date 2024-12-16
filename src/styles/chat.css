@@ -1,5 +1,5 @@
 main #chat {
-    height: 100vh;
+    
     position: sticky;
     top: 0;
   & header {
@@ -60,7 +60,7 @@ padding-inline: 7rem;
     & #text-in {
         padding: 1rem;
         justify-content: space-between;
-        
+
 & div {
     gap: 1rem;
 }
@@ -70,5 +70,28 @@ padding-inline: 7rem;
 
         }
 
+    }
+}
+
+@media (width <= 600px) {
+    main #chat {
+        & #locale-messages {
+            padding-inline: 2rem;
+        }
+    }
+}
+
+@media (600px < width < 1024px) {
+    main #chat {
+        
+        & #locale-messages {
+            padding-inline: 3rem;
+        }
+    }
+}
+
+@media (width >= 1024px) {
+    main #chat {
+        height: 100vh;
     }
 }
